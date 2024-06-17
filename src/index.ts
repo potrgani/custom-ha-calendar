@@ -13,7 +13,7 @@ import week from 'dayjs/plugin/weekOfYear';
 import { CSSResultGroup, LitElement, TemplateResult, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import './locale.dayjs';
-
+import './hr';
 
 
 dayjs.extend(updateLocale);
