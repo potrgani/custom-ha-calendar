@@ -1,6 +1,7 @@
 ﻿/* eslint-disable import/no-named-as-default-member */
 import { mdiChevronLeft, mdiChevronRight } from '@mdi/js';
 import dayjs, { locale, extend } from 'dayjs';
+import dayjs from 'dayjs';
 import duration from 'dayjs/plugin/duration';
 import isoWeek from 'dayjs/plugin/isoWeek';
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore';
