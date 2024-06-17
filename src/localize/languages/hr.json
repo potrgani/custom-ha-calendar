@@ -1,0 +1,113 @@
+{
+	"common": {
+		"version": "Verzija",
+		"show_warning": "Prikaži Upozorenje",
+		"error": "Greška",
+		"description": "Napredna kartica kalendara za Home Assistant s Lovelace sučeljem.",
+		"fullDayEventText": "Cijeli dan",
+		"untilText": "Do",
+		"noEventText": "Nema događaja",
+		"noEventsForNextDaysText": "Nema događaja u sljedećim danima",
+		"hiddenEventText": "događaji su skriveni"
+	},
+	"ui": {
+		"common": {
+			"previous": "Prethodni",
+			"next": "Sljedeći",
+			"week": "Tjedan"
+		}
+	},
+	"errors": {
+		"invalid_configuration": "Nevažeća Konfiguracija",
+		"update_card": "Kalendar se ne može učitati iz Home Assistant komponente",
+		"no_entities": "Niste naveli nijednu jedinicu"
+	},
+	"required": {
+		"name": "Obavezno",
+		"secondary": "Obavezne opcije za ispravno funkcioniranje kartice"
+	},
+	"main": {
+		"name": "Glavne Opcije",
+		"secondary": "Opcije koje vrijede globalno",
+		"fields": {
+			"name": "Ime",
+			"showColors": "Prikaži Boje",
+			"maxDaysToShow": "Maksimalni broj dana za prikaz",
+			"showLocation": "Prikaži ikonu lokacije",
+			"showLoader": "Prikaži animaciju učitavanja",
+			"showDate": "Prikaži datum na kartici",
+			"showDeclined": "Prikaži odbijene događaje",
+			"sortBy": "Sortiraj po",
+			"allDayBottom": "Prikaži cijelodnevne događaje na dnu",
+			"hideFinishedEvents": "Sakrij završene događaje",
+			"dateFormat": "Format datuma",
+			"defaultMode": "Zadani način",
+			"linkTarget": "Cilj veze",
+			"refreshInterval": "Interval osvježavanja",
+			"showRelativeTime": "Prikaži relativno vrijeme",
+			"firstDayOfWeek": "Prvi dan tjedna 0-6",
+			"cardHeight": "Visina kartice",
+			"hideDuplicates": "Sakrij duplicirane",
+			"showMultiDay": "Podijeli višednevne događaje",
+			"showMultiDayEventParts": "Prikaži dijelove višednevnih događaja",
+			"eventTitle": "Postavi prazan naslov događaja",
+			"compactMode": "Omogući kompaktni način",
+			"titleLength": "Maksimalna duljina naslova (0 za neograničeno)",
+			"descLength": "Maksimalna duljina opisa (0 za neograničeno)",
+			"showAllDayEvents": "Prikaži cijelodnevne događaje",
+			"offsetHeaderDate": "Pomakni datum zaglavlja",
+			"startDaysAhead": "Događaji koji počinju za `x` dana od danas"
+		}
+	},
+	"event": {
+		"name": "Način Događaja",
+		"secondary": "Specifične opcije za način događaja",
+		"fields": {
+			"showCurrentEventLine": "Prikaži liniju prije događaja?",
+			"showProgressBar": "Prikaži traku napretka?",
+			"showMonth": "Prikaži mjesec?",
+			"showWeekDay": "Prikaži dan u tjednu",
+			"showDescription": "Prikaži opis?",
+			"disableEventLink": "Onemogući veze u naslovu događaja?",
+			"disableLocationLink": "Onemogući veze na lokaciji?",
+			"showNoEventsForToday": "Prikaži poruku 'Nema događaja danas'?",
+			"showFullDayProgress": "Prikaži napredak za cijeli dan?",
+			"untilText": "tekst do:",
+			"noEventText": "Tekst za 'Nema događaja danas':",
+			"noEventsForNextDaysText": "Tekst za 'Nema događaja u sljedećim danima':",
+			"fullDayEventText": "Tekst za cijeli dan događaja:",
+			"showEventIcon": "Prikaži ikonu događaja",
+			"showHiddenText": "Prikaži tekst za skrivene događaje?",
+			"hiddenEventText": "Tekst za skrivene događaje:",
+			"showCalendarName": "Prikaži ime kalendara",
+			"showWeekNumber": "Prikaži brojeve tjedna",
+			"showEventDate": "Prikaži datum događaja",
+			"showDatePerEvent": "Prikaži datum uz svaki događaj",
+			"showTimeRemaining": "Prikaži preostalo vrijeme",
+			"showAllDayHours": "Prikaži tekst za cijeli dan događaja",
+			"hoursOnSameLine": "Prikaži sate u istom redu"
+		}
+	},
+	"calendar": {
+		"name": "Način Kalendara",
+		"secondary": "Specifične opcije za način kalendara",
+		"fields": {
+			"showLastCalendarWeek": "Prikaži zadnji tjedan kalendara",
+			"disableCalEventLink": "Onemogući vezu kalendarskog događaja",
+			"disableCalLocationLink": "Onemogući vezu lokacije kalendara",
+			"calShowDescription": "Prikaži opis",
+			"disableCalLink": "Onemogući vezu kalendara"
+		}
+	},
+	"appearance": {
+		"name": "Izgled",
+		"secondary": "Prilagodba boja itd.",
+		"main": {
+			"name": "Glavno",
+			"secondary": "Postavke globalnih boja"
+		},
+		"fields": {
+			"dimFinishedEvents": "Zamagli završene događaje?"
+		}
+	}
+}
