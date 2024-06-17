@@ -18,7 +18,8 @@ jobs:
       - name: Install
         run: |
           yarn install
-          
+      - name: Format code with Prettier
+        run: yarn prettier --write .   
     
       - name: Build
         run: |
