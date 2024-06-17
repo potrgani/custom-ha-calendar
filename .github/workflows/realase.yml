@@ -20,15 +20,7 @@ jobs:
           yarn install
           
           yarn build
-      - name: Upload zip to release
-        uses: svenstaro/upload-release-action@v1-release
-
-        with:
-          repo_token: ${{ secrets.GH_TOKEN }}
-          file: /home/runner/work/custom-ha-calendar/custom-ha-calendar/dist/atomic-calendar-revive.js 
-          asset_name: atomic-calendar-revive.js 
-          tag: ${{ github.ref }}
-          overwrite: true
+     
       - name: Run Semantic Release
         run: npx semantic-release --debug
         env:
