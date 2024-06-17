@@ -23,7 +23,7 @@ const locale = {
     M: 'jedan mjesec',
     MM: '%d mjeseci',
     y: 'jednu godinu',
-    yy: '%d godina'
+    yy: '%d godina',
   },
   formats: {
     LT: 'HH:mm',
@@ -31,13 +31,13 @@ const locale = {
     L: 'DD.MM.YYYY.',
     LL: 'D. MMMM YYYY.',
     LLL: 'D. MMMM YYYY. HH:mm',
-    LLLL: 'dddd, D. MMMM YYYY. HH:mm'
+    LLLL: 'dddd, D. MMMM YYYY. HH:mm',
   },
   ordinal: (n) => {
     const s = ['.', '.', '.', '.'];
     const v = n % 100;
     return `[${n}${s[(v - 20) % 10] || s[v] || s[0]}]`;
-  }
+  },
 };
 
 dayjs.locale(locale, null, true);
