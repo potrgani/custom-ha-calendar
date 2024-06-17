@@ -1,12 +1,13 @@
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import isBetween from 'dayjs/plugin/isBetween';
+import hr from '../hr';
 
 import CalendarDay from './calendar.class';
 import EventClass from './event.class';
 import sortEvents from '../common/sort_events';
 import { atomicCardConfig } from '../types/config';
-import hr from '../hr';
+
 
 dayjs.locale(hr);
 dayjs.extend(customParseFormat);
