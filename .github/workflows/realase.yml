@@ -20,6 +20,10 @@ jobs:
           yarn install
           
           yarn build
+      - name: Run Semantic Release
+        run: npx semantic-release --debug
+        env:
+         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Verify HACS compliance
         uses: hacs/action@main
         with:
