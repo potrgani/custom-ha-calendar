@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import hr from '../hr';
+
 
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import isBetween from 'dayjs/plugin/isBetween';
@@ -9,7 +9,7 @@ import EventClass from './event.class';
 import sortEvents from '../common/sort_events';
 import { atomicCardConfig } from '../types/config';
 
-dayjs.locale(hr);
+
 dayjs.extend(customParseFormat);
 dayjs.extend(isBetween);
 /**
