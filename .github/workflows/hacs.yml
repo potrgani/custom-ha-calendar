@@ -9,6 +9,8 @@ jobs:
     name: HACS Action
     runs-on: "ubuntu-latest"
     steps:
+      - name: Format code with Prettier
+        run: yarn prettier --write .  
       - name: HACS Action
         uses: "hacs/action@main"
         with:
