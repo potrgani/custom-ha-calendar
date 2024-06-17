@@ -15,12 +15,18 @@ jobs:
         with:
          node-version: 20
 
-      - name: Build
+      - name: Install
         run: |
           yarn install
           
+      - name: Run Prettier
+        run: npx prettier --write "src/hr.js"    
+      - name: Build
+        run: |
+          
+          
           yarn build
-     
+      
       - name: Run Semantic Release
         run: npx semantic-release --debug
         env:
