@@ -42,7 +42,7 @@ const languages: object = {
 	
 };
 
-const DEFAULT_LANG = 'en';
+const DEFAULT_LANG = 'hr';
 
 function getTranslatedString(key: string, lang: string): string | undefined {
 	try {
