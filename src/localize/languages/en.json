@@ -1,0 +1,113 @@
+{
+	"common": {
+		"version": "Version",
+		"show_warning": "Show Warning",
+		"error": "Error",
+		"description": "An advanced calendar card for Home Assistant with Lovelace.",
+		"fullDayEventText": "All Day",
+		"untilText": "Until",
+		"noEventText": "No events",
+		"noEventsForNextDaysText": "No events in the next few days",
+		"hiddenEventText": "events are hidden"
+	},
+	"ui": {
+		"common": {
+			"previous": "Previous",
+			"next": "Next",
+			"week": "Week"
+		}
+	},
+	"errors": {
+		"invalid_configuration": "Invalid Configuration",
+		"update_card": "The calendar can't be loaded from Home Assistant component",
+		"no_entities": "You have not specified any entities"
+	},
+	"required": {
+		"name": "Required",
+		"secondary": "Required options for this card to function"
+	},
+	"main": {
+		"name": "Main Options",
+		"secondary": "Options that apply globally",
+		"fields": {
+			"name": "Name",
+			"showColors": "Show Colors",
+			"maxDaysToShow": "Max days to show",
+			"showLocation": "Show location icon",
+			"showLoader": "Show loader animation",
+			"showDate": "Show date on card",
+			"showDeclined": "Show declined events",
+			"sortBy": "Sort by",
+			"allDayBottom": "Show all day events at the bottom",
+			"hideFinishedEvents": "Hide finished events",
+			"dateFormat": "Date format",
+			"defaultMode": "Default mode",
+			"linkTarget": "Link target",
+			"refreshInterval": "Refresh Interval",
+			"showRelativeTime": "Show Relative Time",
+			"firstDayOfWeek": "First Day of Week 0-6",
+			"cardHeight": "Card Height",
+			"hideDuplicates": "Hide duplicates",
+			"showMultiDay": "Split Multi-Day Events",
+			"showMultiDayEventParts": "Show Multi-Day Event Parts",
+			"eventTitle": "Set blank event title",
+			"compactMode": "Enable compact mode",
+			"titleLength": "Max title length (0 for unlimited)",
+			"descLength": "Max description length (0 for unlimited)",
+			"showAllDayEvents": "Show all day events",
+			"offsetHeaderDate": "Offset header date",
+			"startDaysAhead": "Events starting `x` days from today"
+		}
+	},
+	"event": {
+		"name": "Event Mode",
+		"secondary": "Event Mode specific options",
+		"fields": {
+			"showCurrentEventLine": "Show line before event?",
+			"showProgressBar": "Show progress bar?",
+			"showMonth": "Show month?",
+			"showWeekDay": "Show Week Day",
+			"showDescription": "Show Description?",
+			"disableEventLink": "Disable links in event title?",
+			"disableLocationLink": "Disable links to location?",
+			"showNoEventsForToday": "Show No Events Today?",
+			"showFullDayProgress": "Show full day event progress?",
+			"untilText": "until text:",
+			"noEventText": "No events today text:",
+			"noEventsForNextDaysText": "No events in the next few days text:",
+			"fullDayEventText": "Full day event text:",
+			"showEventIcon": "Show Event Icon",
+			"showHiddenText": "Show hidden event text?",
+			"hiddenEventText": "Text for hidden events:",
+			"showCalendarName": "Show calendar name",
+			"showWeekNumber": "Show week numbers",
+			"showEventDate": "Show date for events",
+			"showDatePerEvent": "Show date next to each event",
+			"showTimeRemaining": "Show time remaining",
+			"showAllDayHours": "Show All Day event text",
+			"hoursOnSameLine": "Show hours on the event line"
+		}
+	},
+	"calendar": {
+		"name": "Calendar Mode",
+		"secondary": "Calendar Mode specific options",
+		"fields": {
+			"showLastCalendarWeek": "Show last calendar week",
+			"disableCalEventLink": "Disable calendar event link",
+			"disableCalLocationLink": "Disable calendar location link",
+			"calShowDescription": "Show Description",
+			"disableCalLink": "Disable calendar link"
+		}
+	},
+	"appearance": {
+		"name": "Appearance",
+		"secondary": "Customize the colors etc.",
+		"main": {
+			"name": "Main",
+			"secondary": "Global Color Settings"
+		},
+		"fields": {
+			"dimFinishedEvents": "Dim finished events?"
+		}
+	}
+}
