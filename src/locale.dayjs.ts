@@ -39,3 +39,4 @@ import 'dayjs/locale/sl';
 import 'dayjs/locale/sv';
 import 'dayjs/locale/sk';
 import './hr.js';
+import 'dayjs/locale/hr';
