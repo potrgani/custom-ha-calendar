@@ -10,6 +10,7 @@ const locale = {
   monthsShort: 'Sij_Velj_Ožu_Tra_Svi_Lip_Srp_Kol_Ruj_Lis_Stu_Pro'.split('_'),
   weekStart: 1,
   yearStart: 4,
+  ordinal: n => n,
   relativeTime: {
     future: 'za %s',
     past: 'prije %s',
@@ -32,13 +33,9 @@ const locale = {
     LL: 'D. MMMM YYYY.',
     LLL: 'D. MMMM YYYY. HH:mm',
     LLLL: 'dddd, D. MMMM YYYY. HH:mm',
-  },
-  ordinal: (n) => {
-    const s = ['.', '.', '.', '.'];
-    const v = n % 100;
-    return `[${n}${s[(v - 20) % 10] || s[v] || s[0]}]`;
-  },
-};
+  }
+
+}
 
 dayjs.locale(locale, null, true);
 
