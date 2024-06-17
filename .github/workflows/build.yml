@@ -18,5 +18,6 @@ jobs:
       - name: Build
         run: |
           yarn install
+          npm init @eslint/config
           yarn lint
           yarn build
