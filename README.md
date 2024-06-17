@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+![Event Mode Example](https://raw.githubusercontent.com/totaldebug/atomic-calendar-revive/master/.github/img/event-mode-example.png)
 
 [![Release][release-shield]][release-url]
 [![Stargazers][stars-shield]][stars-url]
