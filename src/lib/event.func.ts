@@ -6,7 +6,9 @@ import CalendarDay from './calendar.class';
 import EventClass from './event.class';
 import sortEvents from '../common/sort_events';
 import { atomicCardConfig } from '../types/config';
+import hr from './src/hr';
 
+dayjs.locale('hr-hr');
 dayjs.extend(customParseFormat);
 dayjs.extend(isBetween);
 /**
