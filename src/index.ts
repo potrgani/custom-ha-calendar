@@ -15,7 +15,7 @@ import { customElement, property } from 'lit/decorators.js';
 import './locale.dayjs';
 import './hr';
 
-dayjs.locale('hr-hr');
+dayjs.locale(hr);
 dayjs.extend(updateLocale);
 dayjs.extend(relativeTime);
 dayjs.extend(isoWeek);
