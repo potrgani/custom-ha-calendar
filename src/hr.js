@@ -2,7 +2,7 @@
 import dayjs from 'dayjs';
 
 const locale = {
-  name: 'hr',
+  name: 'hr-hr',
   weekdays: 'Nedjelja_Ponedjeljak_Utorak_Srijeda_Četvrtak_Petak_Subota'.split('_'),
   weekdaysShort: 'Ned_Pon_Uto_Sri_Čet_Pet_Sub'.split('_'),
   weekdaysMin: 'Ne_Po_Ut_Sr_Če_Pe_Su'.split('_'),
