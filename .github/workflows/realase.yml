@@ -38,8 +38,10 @@ jobs:
         run: |
           TAG_NAME=v$(date +'%Y%m%d%H%M%S')
           echo "TAG_NAME=${TAG_NAME}" >> $GITHUB_ENV
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git tag $TAG_NAME
-          git push origin $TAG_NAME
+          git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }} $TAG_NAME
 
       - name: Upload zip to release
         uses: svenstaro/upload-release-action@v1-release
