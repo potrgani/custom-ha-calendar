@@ -27,7 +27,16 @@ jobs:
           
           
           yarn build
-
+      - name: Upload Release Asset
+        uses: svenstaro/upload-release-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        with:
+          repo_token: ${{ secrets.GH_TOKEN }}
+          file: dist/atomic-calendar-revive.js
+          asset_name: atomic-calendar-revive.js
+          tag: ${{ github.ref }}
+          overwrite: true
       - name: Run Semantic Release
         run: npx semantic-release --debug
         env:
