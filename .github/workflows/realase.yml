@@ -41,7 +41,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git tag $TAG_NAME
-          git push https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }} $TAG_NAME
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} $TAG_NAME
 
       - name: Upload zip to release
         uses: svenstaro/upload-release-action@v1-release
